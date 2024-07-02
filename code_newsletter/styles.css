@@ -84,11 +84,13 @@ body {
     padding: 20px;
     margin: 20px;
     background-color: whitesmoke;
-    width: 350px;
-    height: 450px;
+    width: 30%;
+    height: 30%;
     gap: 20px;
     border-radius: 22px;
     border: 1px 0px 0px 0px;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .image_style {
@@ -97,7 +99,7 @@ body {
     height: 250px;
 }
 
-.row1 {
+.row1,.row2,.row3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
